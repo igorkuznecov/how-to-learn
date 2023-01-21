@@ -1,4 +1,4 @@
-
+/* last version */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -10,22 +10,18 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .logo {
-  /* зачем я это сделал?*/
+  width: 228px;
+  height: 32px;
+  background-size: cover;
 }
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
-  background-size: cover;
-  width: 228px;
-  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
 }
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  background-size: cover;
-  width: 228px;
-  height: 32px;
 }
 
 .header {
@@ -84,10 +80,7 @@
   color: #2f80ed;
 }
 .description {
-  display: flex;
-  margin: auto; /* по брифу флекс выравнивание */
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto 100px;
   width: 80%;
   min-width: 784px;
 }
@@ -127,7 +120,7 @@
 }
 .section-title {
   text-align: center;
-  width: 60%; /* по брифу просто width */
+  width: 60%;
   margin: 0;
   margin-bottom: 20px;
   line-height: 1.15;
@@ -141,7 +134,7 @@
 
 .section-subtitle {
   text-align: center;
-  width: 60%; /* по брифу просто width */
+  width: 60%;
   margin: 0;
   line-height: 34px;
   font-size: 24px;
@@ -219,7 +212,7 @@
   text-align: center;
   margin: 0;
   margin-top: 100px;
-  max-width: 648px; /* просто width в брифе */
+  max-width: 648px;
   font-size: 120px;
   line-height: 1.15;
   font-weight: 600;
