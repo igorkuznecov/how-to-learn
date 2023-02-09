@@ -10,5 +10,10 @@
 * Методология БЭМ
 
 Планов по доработке нет, ведь я учусь думать как разработчик и уже к середине проекта хочу все бросить и начать делать новый.
-
+По этому просто расскажу анекдот.
+> What frontend-developer will do when he asked to invert binary tree?
+>```.binary-tree {
+>  transform: rotate(180deg);
+>}
+>```
 ![сорян](./images/cat.jpg)
